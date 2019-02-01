@@ -140,6 +140,7 @@ class LoginVC: UIViewController {
         handsImageView_top.constant = handsImageView_top_cache
         whiteIconImageView_y.constant = whiteIconImageView_y_cache
         registerButton_bottom.constant = registerButton_bottom_cache
+        //alter
         
 //        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
 //            registerButton_bottom.constant = registerButton_bottom_cache
