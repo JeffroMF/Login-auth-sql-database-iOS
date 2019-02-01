@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74F41C021FE81CB0059FD95 /* Hands.png in Resources */ = {isa = PBXBuildFile; fileRef = F74F41BF21FE81CA0059FD95 /* Hands.png */; };
+		F74F41C221FE83380059FD95 /* WhiteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F74F41C121FE83380059FD95 /* WhiteIcon.png */; };
+		F7725B0E21CC052E006CDF90 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7725B0D21CC052E006CDF90 /* LoginVC.swift */; };
+		F776258821ECAE7A006403E6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776258721ECAE7A006403E6 /* Helper.swift */; };
+		F79E59C4220464090054B08A /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = F79E59C3220464080054B08A /* Cover.png */; };
+		F7B4FA0021E0273900B1F453 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4F9FF21E0273900B1F453 /* RegisterVC.swift */; };
 		F7FF3CCA21C8086B00E04005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FF3CC921C8086B00E04005 /* AppDelegate.swift */; };
-		F7FF3CCC21C8086B00E04005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FF3CCB21C8086B00E04005 /* ViewController.swift */; };
 		F7FF3CCF21C8086B00E04005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FF3CCD21C8086B00E04005 /* Main.storyboard */; };
 		F7FF3CD121C8086D00E04005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FF3CD021C8086D00E04005 /* Assets.xcassets */; };
 		F7FF3CD421C8086D00E04005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7FF3CD221C8086D00E04005 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7FF3CC621C8086B00E04005 /* Trybes v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trybes v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74F41BF21FE81CA0059FD95 /* Hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hands.png; sourceTree = "<group>"; };
+		F74F41C121FE83380059FD95 /* WhiteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteIcon.png; sourceTree = "<group>"; };
+		F7725B0D21CC052E006CDF90 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F776258721ECAE7A006403E6 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F79E59C3220464080054B08A /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
+		F7B4F9FF21E0273900B1F453 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F7FF3CC621C8086B00E04005 /* Auth0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auth0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FF3CC921C8086B00E04005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7FF3CCB21C8086B00E04005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7FF3CCE21C8086B00E04005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7FF3CD021C8086D00E04005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7FF3CD321C8086D00E04005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,10 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7725B0C21CC04FC006CDF90 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F7FF3CBD21C8086B00E04005 = {
 			isa = PBXGroup;
 			children = (
-				F7FF3CC821C8086B00E04005 /* Trybes v2 */,
+				F7FF3CC821C8086B00E04005 /* Auth0 */,
 				F7FF3CC721C8086B00E04005 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +63,36 @@
 		F7FF3CC721C8086B00E04005 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7FF3CC621C8086B00E04005 /* Trybes v2.app */,
+				F7FF3CC621C8086B00E04005 /* Auth0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7FF3CC821C8086B00E04005 /* Trybes v2 */ = {
+		F7FF3CC821C8086B00E04005 /* Auth0 */ = {
 			isa = PBXGroup;
 			children = (
+				F7725B0C21CC04FC006CDF90 /* New Group */,
 				F7FF3CC921C8086B00E04005 /* AppDelegate.swift */,
-				F7FF3CCB21C8086B00E04005 /* ViewController.swift */,
 				F7FF3CCD21C8086B00E04005 /* Main.storyboard */,
 				F7FF3CD021C8086D00E04005 /* Assets.xcassets */,
+				F79E59C3220464080054B08A /* Cover.png */,
+				F74F41C121FE83380059FD95 /* WhiteIcon.png */,
+				F74F41BF21FE81CA0059FD95 /* Hands.png */,
 				F7FF3CD221C8086D00E04005 /* LaunchScreen.storyboard */,
 				F7FF3CD521C8086D00E04005 /* Info.plist */,
+				F7725B0D21CC052E006CDF90 /* LoginVC.swift */,
+				F7B4F9FF21E0273900B1F453 /* RegisterVC.swift */,
+				F776258721ECAE7A006403E6 /* Helper.swift */,
 			);
-			path = "Trybes v2";
+			path = Auth0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7FF3CC521C8086B00E04005 /* Trybes v2 */ = {
+		F7FF3CC521C8086B00E04005 /* Auth0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7FF3CD821C8086D00E04005 /* Build configuration list for PBXNativeTarget "Trybes v2" */;
+			buildConfigurationList = F7FF3CD821C8086D00E04005 /* Build configuration list for PBXNativeTarget "Auth0" */;
 			buildPhases = (
 				F7FF3CC221C8086B00E04005 /* Sources */,
 				F7FF3CC321C8086B00E04005 /* Frameworks */,
@@ -79,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = "Trybes v2";
+			name = Auth0;
 			productName = "Trybes v2";
-			productReference = F7FF3CC621C8086B00E04005 /* Trybes v2.app */;
+			productReference = F7FF3CC621C8086B00E04005 /* Auth0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7FF3CC121C8086B00E04005 /* Build configuration list for PBXProject "Trybes v2" */;
+			buildConfigurationList = F7FF3CC121C8086B00E04005 /* Build configuration list for PBXProject "Auth0" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7FF3CC521C8086B00E04005 /* Trybes v2 */,
+				F7FF3CC521C8086B00E04005 /* Auth0 */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79E59C4220464090054B08A /* Cover.png in Resources */,
 				F7FF3CD421C8086D00E04005 /* LaunchScreen.storyboard in Resources */,
 				F7FF3CD121C8086D00E04005 /* Assets.xcassets in Resources */,
+				F74F41C021FE81CB0059FD95 /* Hands.png in Resources */,
 				F7FF3CCF21C8086B00E04005 /* Main.storyboard in Resources */,
+				F74F41C221FE83380059FD95 /* WhiteIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7FF3CCC21C8086B00E04005 /* ViewController.swift in Sources */,
+				F7B4FA0021E0273900B1F453 /* RegisterVC.swift in Sources */,
+				F7725B0E21CC052E006CDF90 /* LoginVC.swift in Sources */,
 				F7FF3CCA21C8086B00E04005 /* AppDelegate.swift in Sources */,
+				F776258821ECAE7A006403E6 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +312,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHHGHM5K66;
-				INFOPLIST_FILE = "Trybes v2/Info.plist";
+				INFOPLIST_FILE = Auth0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.Trybes-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-auth0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,14 +331,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHHGHM5K66;
-				INFOPLIST_FILE = "Trybes v2/Info.plist";
+				INFOPLIST_FILE = Auth0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.Trybes-v2";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-auth0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7FF3CC121C8086B00E04005 /* Build configuration list for PBXProject "Trybes v2" */ = {
+		F7FF3CC121C8086B00E04005 /* Build configuration list for PBXProject "Auth0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7FF3CD621C8086D00E04005 /* Debug */,
@@ -326,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7FF3CD821C8086D00E04005 /* Build configuration list for PBXNativeTarget "Trybes v2" */ = {
+		F7FF3CD821C8086D00E04005 /* Build configuration list for PBXNativeTarget "Auth0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7FF3CD921C8086D00E04005 /* Debug */,

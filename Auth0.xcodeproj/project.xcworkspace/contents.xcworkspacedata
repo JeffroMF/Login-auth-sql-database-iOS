@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Trybes v2.xcodeproj">
+      location = "self:/Users/brunocampos/Documents/iOS Projects/Login-auth-sql-database/Auth0.xcodeproj">
    </FileRef>
 </Workspace>
